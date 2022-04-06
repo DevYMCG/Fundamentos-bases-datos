@@ -2,8 +2,9 @@
 
 ### Indice
 - [Fundamentos de Bases de Datos](#fundamentos-de-bases-de-datos)
-    - [Tipos de bases de datos](#tipos-de-bases-de-datos)
-    - [Servicios](#servicios)
+    - [conceptos básicos](#conceptos-basicos)
+        - [Tipos de bases de datos](#tipos-de-bases-de-datos)
+        - [Servicios](#servicios)
   - [Introducción a las bases de datos relacionales](#Introducción-a-las-bases-de-datos-relacionales)
     - [Historia de las RDB (relational data bases)](#Historia-de-las-rdb-relational-data-bases)
     - [Entidades y atributos](#entidades-y-atributos)
@@ -96,16 +97,16 @@
   - [Bonus](#bonus)
     - [Bases de datos relacionales vs no relacionales](#clase-58-bases-de-datos-relacionales-vs-no-relacionales)
 
-#### Tipos de bases de datos
-
-**Relacionales:** En la industria hay varias compañías dedicadas a ser manejadoras de bases de datos relacionales como SQL Server, Oracle, **MariaDB**, entre otras.
-**No relacionales**: Todavía están avanzando y existen ejemplos muy distintos como cassandra, elasticsearch, neo4j, MongoDB, entre otras.
-
 # Editor.md
 
 ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
+#### Tipos de bases de datos
+
+**Relacionales:** En la industria hay varias compañías dedicadas a ser manejadoras de bases de datos relacionales como SQL Server, Oracle, **MariaDB**, entre otras.
+**No relacionales**: Todavía están avanzando y existen ejemplos muy distintos como cassandra, elasticsearch, neo4j, MongoDB, entre otras.
 
 
 **Table of Contents**
