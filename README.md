@@ -152,6 +152,12 @@ Una **entidad**  representa algo en el mundo real, incluso algo abstracto. Tiene
 
 Nota: Por convección las entidades se ponen en plural por ejemplo laptos
 
+#### Tipos de Entidades
+
+**Entidad Fuerte:** No depende de ninguna entidad para existir
+
+**Entidades débiles:** No pueden existir sin una entidad fuerte y se representan con un cuadrado con doble línea.
+
 ### Atributos
 
 Las entidades tienen atributos que son las cosas que lo hacen ser una entidad.
