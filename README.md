@@ -97,9 +97,9 @@
   - [Bonus](#bonus)
     - [Bases de datos relacionales vs no relacionales](#clase-58-bases-de-datos-relacionales-vs-no-relacionales)
 
-# Bases de datos
+# Bases de datos relacionales
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+![](https://www.muylinux.com/wp-content/uploads/2018/02/microsoft_sqlserver.png)
 
 # Tipos de bases de datos
 
