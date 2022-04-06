@@ -99,7 +99,98 @@
 
 # Bases de datos relacionales
 
-![](https://www.muylinux.com/wp-content/uploads/2018/02/microsoft_sqlserver.png)
+<p align="left">
+  <a href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads" target="_blank">
+    <img
+      src="https://www.muylinux.com/wp-content/uploads/2018/02/microsoft_sqlserver.png"
+      alt="sqlserver"
+      width="40"
+      height="40"
+    />
+  </a>
+  <a href="https://www.python.org" target="_blank">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+      alt="python"
+      width="40"
+      height="40"
+    />
+  </a>
+  <a href="https://spring.io/projects/spring-boot" target="_blank">
+    <img
+      src="https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"
+      alt="java"
+      width="80"
+      height="40"
+    />
+  </a>
+  <a href="https://git-scm.com/" target="_blank">
+    <img
+      src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+      alt="git"
+      width="40"
+      height="40"
+    />
+  </a>
+  <a href="https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0" target="_blank">
+    <img
+      src="https://codeopinion.com/wp-content/uploads/2018/07/Bitmap-MEDIUM_ASP.NET-Core-Logo_2colors_Square_RGB.png"
+      alt="Asp.Net . core"
+      width="40"
+      height="40"
+    />
+  </a>
+
+  <a href="https://www.linux.org/" target="_blank">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+      alt="linux"
+      width="40"
+      height="40"
+    />
+  </a>
+  <a href="https://www.mysql.com/" target="_blank">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+      alt="mysql"
+      width="40"
+      height="40"
+    />
+  </a>
+  <a href="https://www.postgresql.org" target="_blank">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+      alt="postgresql"
+      width="40"
+      height="40"
+    />
+  </a>
+  <a href="https://postman.com" target="_blank">
+    <img
+      src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+      alt="postman"
+      width="40"
+      height="40"
+    />
+  </a>
+  <a href="https://angular.io/" target="_blank">
+    <img
+      src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg"
+      alt="angular"
+      width="40"
+      height="40"
+    />
+  </a>
+   <a href="https://nodejs.org/es/" target="_blank">
+    <img
+      src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+      alt="nodejs"
+      width="40"
+      height="40"
+    />
+  </a>
+
+</p>
 
 # Tipos de bases de datos
 
