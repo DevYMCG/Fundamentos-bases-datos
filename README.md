@@ -150,7 +150,9 @@ Las bases de datos no relacionales son un sistema de almacenamiento de informaci
 
 Una **entidad**  representa algo en el mundo real, incluso algo abstracto. Tienen atributos que son las cosas que los hacen ser una entidad, se diagraman dentro de cuadrados  y **por convención se ponen en plural**.
 
-#### Atributos
+Nota: Por convección las entidades se ponen en plural por ejemplo laptos
+
+### Atributos
 
 Las entidades tienen atributos que son las cosas que lo hacen ser una entidad.
 
@@ -162,6 +164,9 @@ Los **atributos llave** son aquellos que identifican a la entidad y no pueden se
 - Clave artificial: No es inherente al objeto y se asigna de manera arbitraria
 
 ![src/entidades_y_atributos.PNG](src/entidades_y_atributos.PNG)
+
+### Ejemplo con laptos
+![src/atributos.PNG](src/atributos.PNG)
 
 **Table of Contents**
 
