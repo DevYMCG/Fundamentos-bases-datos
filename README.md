@@ -9,7 +9,7 @@
     - [Entidades y atributos](#entidades-y-atributos)
       - [Atributos](#atributos)
       - [Entidades](#entidades)
-      - [Entidades de Platzi Blog](#entidades-de-platzi-blog)
+      - [Entidades del Blog](#entidades-del-blog)
     - [Relaciones](#relaciones)
       - [Cardinalidad: 1 a 1](#cardinalidad-1-a-1)
       - [Cardinalidad: 0 a 1](#cardinalidad-0-a-1)
@@ -181,6 +181,9 @@ Los **atributos llave** son aquellos que identifican a la entidad y no pueden se
 
 #### Entidad debil: por existencia
 ![src/entidad_debil_por_existencia.PNG](src/entidad_debil_por_existencia.PNG)
+
+#### Entidades del Blog
+![src/diagrama_entidad_relacional_blog.PNG](src/diagrama_entidad_relacional_blog.PNG)
 
 **Table of Contents**
 
