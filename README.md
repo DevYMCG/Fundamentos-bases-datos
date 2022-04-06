@@ -182,8 +182,9 @@ Los **atributos llave** son aquellos que identifican a la entidad y no pueden se
 #### Entidad debil: por existencia
 ![src/entidad_debil_por_existencia.PNG](src/entidad_debil_por_existencia.PNG)
 
-#### Entidades del Blog
+#### Entidades y atributos del Blog
 ![src/diagrama_entidad_relacional_blog.PNG](src/diagrama_entidad_relacional_blog.PNG)
+![src/atributos_del_post.PNG](src/atributos_del_post.PNG)
 
 **Table of Contents**
 
