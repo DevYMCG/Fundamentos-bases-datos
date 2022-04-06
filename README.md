@@ -5,8 +5,7 @@
     - [conceptos básicos](#conceptos-basicos)
         - [Tipos de bases de datos](#tipos-de-bases-de-datos)
         - [Servicios](#servicios)
-  - [Introducción a las bases de datos relacionales](#Introducción-a-las-bases-de-datos-relacionales)
-    - [Historia de las RDB (relational data bases)](#Historia-de-las-rdb-relational-data-bases)
+  - [Introducción a las bases de datos relacionales](#introducción-a-las-bases-de-datos-relacionales)
     - [Entidades y atributos](#entidades-y-atributos)
       - [Atributos](#atributos)
       - [Entidades](#entidades)
@@ -146,6 +145,23 @@ Las bases de datos no relacionales son un sistema de almacenamiento de informaci
 
 **Auto administrados:** Es la base de datos que instalas tú y te encargas de actualizaciones, mantenimiento, etc.
 **Administrados:** Servicios que ofrecen las nubes modernas como Azure y no debes preocuparte por mantenimiento o actualizaciones.
+
+### Entidad
+
+Una **entidad**  representa algo en el mundo real, incluso algo abstracto. Tienen atributos que son las cosas que los hacen ser una entidad, se diagraman dentro de cuadrados  y **por convención se ponen en plural**.
+
+#### Atributos
+
+Las entidades tienen atributos que son las cosas que lo hacen ser una entidad.
+
+Los **atributos compuestos** son aquellos que tienen atributos ellos mismos.
+
+Los **atributos llave** son aquellos que identifican a la entidad y no pueden ser repetidos, se diagraman con underline. Existen:
+
+- Naturales: Son inherentes al objeto como el número de serie
+- Clave artificial: No es inherente al objeto y se asigna de manera arbitraria
+
+![src/entidades_y_atributos.png](src/entidades_y_atributos.png)
 
 **Table of Contents**
 
