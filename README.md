@@ -173,6 +173,7 @@ Los **atributos llave** son aquellos que identifican a la entidad y no pueden se
 ### Ejemplo con laptos
 ![src/atributos.PNG](src/atributos.PNG)
 ![src/entidad.PNG](src/entidad.PNG)
+![src/entidad_fuerte_entidad_debil.PNG](src/entidad_fuerte_entidad_debil.PNG)
 
 **Table of Contents**
 
