@@ -104,37 +104,37 @@
     <img
       src="https://www.muylinux.com/wp-content/uploads/2018/02/microsoft_sqlserver.png"
       alt="sqlserver"
-      width="40"
-      height="40"
+      width="50"
+      height="50"
     />
   </a>
   <a href="https://www.postgresql.org/" target="_blank">
     <img
       src="https://www.postgresql.org/media/img/about/press/elephant.png"
       alt="PostgreSQL"
-      width="40"
-      height="40"
+      width="50"
+      height="50"
     />
   </a>
   <a href="https://www.oracle.com/co/index.html" target="_blank">
     <img
       src="https://www.magicplsql.com/media/k2/items/cache/9415f9bcd76598f9c08127db1641b596_L.jpg?t=20200708_191242"
       alt="PostgreSQL"
-      width="40"
-      height="40"
+      width="50"
+      height="50"
     />
   </a>
   <a href="https://www.mysql.com/" target="_blank">
     <img
       src="https://www.diegocalvo.es/wp-content/uploads/2018/07/MySQL.png"
       alt="MySQL"
-      width="40"
-      height="40"
+      width="50"
+      height="50"
     />
   </a>
 </p>
 
-# Tipos de bases de datos
+## Tipos de bases de datos
 
 ### Relacionales: 
 En la industria hay varias compañías dedicadas a ser manejadoras de bases de datos relacionales como SQL Server, Oracle, **MariaDB**, entre otras.
