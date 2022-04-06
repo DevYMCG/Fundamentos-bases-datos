@@ -152,13 +152,6 @@ Una **entidad**  representa algo en el mundo real, incluso algo abstracto. Tiene
 
 Nota: Por convección las entidades se ponen en plural por ejemplo laptos
 
-#### Tipos de Entidades
-
-**Entidad Fuerte:** No depende de ninguna entidad para existir
-
-**Entidades débiles:** No pueden existir sin una entidad fuerte y se representan con un cuadrado con doble línea.
-![src/entidad_debil.PNG](src/entidad_debil.PNG)
-
 ### Atributos
 
 Las entidades tienen atributos que son las cosas que lo hacen ser una entidad.
@@ -173,7 +166,21 @@ Los **atributos llave** son aquellos que identifican a la entidad y no pueden se
 ### Ejemplo con laptos
 ![src/atributos.PNG](src/atributos.PNG)
 ![src/entidad.PNG](src/entidad.PNG)
+
+#### Tipos de Entidades
+
+**Entidad Fuerte:** No depende de ninguna entidad para existir
+
+**Entidades débiles:** No pueden existir sin una entidad fuerte y se representan con un cuadrado con doble línea.
+**Identidades débiles por identidad:** no se diferencian entre sí más que por la clave de su identidad fuerte.
+**Identidades débiles por existencia:** se les asigna una clave propia.
+![src/entidad_debil.PNG](src/entidad_debil.PNG)
+
+#### Entidad debil: por entidad
 ![src/entidad_fuerte_entidad_debil.PNG](src/entidad_fuerte_entidad_debil.PNG)
+
+#### Entidad debil: por existencia
+![src/entidad_debil_por_existencia.PNG](src/entidad_debil_por_existencia.PNG)
 
 **Table of Contents**
 
