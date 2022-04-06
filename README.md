@@ -161,7 +161,7 @@ Los **atributos llave** son aquellos que identifican a la entidad y no pueden se
 - Naturales: Son inherentes al objeto como el número de serie
 - Clave artificial: No es inherente al objeto y se asigna de manera arbitraria
 
-![src/entidades_y_atributos.png](src/entidades_y_atributos.png)
+![src/entidades_y_atributos.PNG](src/entidades_y_atributos.PNG)
 
 **Table of Contents**
 
