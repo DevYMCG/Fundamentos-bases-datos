@@ -2,9 +2,8 @@
 
 ### Indice
 - [Fundamentos de Bases de Datos](#fundamentos-de-bases-de-datos)
-    - [Conceptos básicos y contexto histórico de las Bases de Datos](#Conceptos-básicos-y-contexto-histórico-de-las-bases-de-datos)
-      - [Tipos de bases de datos](#tipos-de-bases-de-datos)
-      - [Servicios](#servicios)
+    - [Tipos de bases de datos](#tipos-de-bases-de-datos)
+    - [Servicios](#servicios)
   - [Introducción a las bases de datos relacionales](#Introducción-a-las-bases-de-datos-relacionales)
     - [Historia de las RDB (relational data bases)](#Historia-de-las-rdb-relational-data-bases)
     - [Entidades y atributos](#entidades-y-atributos)
@@ -96,16 +95,11 @@
     - [ Por que aprender bases de datos hoy](#clase-57-por-que-aprender-bases-de-datos-hoy)
   - [Bonus](#bonus)
     - [Bases de datos relacionales vs no relacionales](#clase-58-bases-de-datos-relacionales-vs-no-relacionales)
-    
-### Features
 
-- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-- Support identification, interpretation, fliter of the HTML tags;
-- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
+#### Tipos de bases de datos
+
+**Relacionales:** En la industria hay varias compañías dedicadas a ser manejadoras de bases de datos relacionales como SQL Server, Oracle, **MariaDB**, entre otras.
+**No relacionales**: Todavía están avanzando y existen ejemplos muy distintos como cassandra, elasticsearch, neo4j, MongoDB, entre otras.
 
 # Editor.md
 
