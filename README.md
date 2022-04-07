@@ -199,18 +199,16 @@ Las relaciones tienen una propiedad llamada cardinalidad y tiene que ver con nú
 
 ![src/relaciones.PNG](src/relaciones.PNG)
 
-### Cardinalidad
-
-## Cardinalidad: 1 a 1
+### Cardinalidad: 1 a 1
 ![src/cardinalidad_uno_a_uno.PNG](src/cardinalidad_uno_a_uno.PNG)
 
-## Cardinalidad: 0 a 1
+### Cardinalidad: 0 a 1
 ![src/cardinalidad_cero_a_uno.PNG](src/cardinalidad_cero_a_uno.PNG)
 
-## Cardinalidad: 1 a N
+### Cardinalidad: 1 a N
 ![src/cardinalidad_uno_a_muchos.PNG](src/cardinalidad_uno_a_muchos.PNG)
 
-## Cardinalidad: 0 a N
+### Cardinalidad: 0 a N
 ![src/cardinalidad_cero_a_muchos.PNG](src/cardinalidad_cero_a_muchos.PNG)
 
 **Table of Contents**
