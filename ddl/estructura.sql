@@ -15,7 +15,7 @@ CREATE TABLE people(
 
 /*Create View*/
 
-CREATE VIEW platzi_people AS
+CREATE VIEW blog_people AS
 SELECT * FROM people
 
 CREATE VIEW v_brasil_customers address
@@ -35,9 +35,13 @@ Alter COLUMN date_of_birth year;
 ALTER TABLE people
 DROP COLUMN date_of_birth;
 
+/*Eliminar la base de datos*/
+
+DROP TABLE people
+
 /*Insert Data*/
 
-INSERT INTO `platziblog`.`people` (`person_id`, `last_name`, `first_name`, `address`, `city`) 
+INSERT INTO `people` (`person_id`, `last_name`, `first_name`, `address`, `city`) 
 VALUES ('1', 'Vásquez', 'Israel', 'Calle Famosa Num 1', 'México'),
 	   ('2', 'Hernández', 'Mónica', 'Reforma 222', 'México'),
 	   ('3', 'Alanis', 'Edgar', 'Central 1', 'Monterrey');
