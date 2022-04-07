@@ -227,6 +227,7 @@ un alumno puede estar inscripto en una o varias clases, una clase puede contener
 #### Diagrama ER
 
 Un diagrama es como un mapa y nos ayuda a entender cuáles son las entidades con las que vamos a trabajar, cuáles son sus relaciones y qué papel van a jugar en las aplicaciones de la base de datos
+
 ![src/diagrama_er.PNG](src/diagrama_er.PNG)
 
 ### Diagrama Físico: tipos de datos y constraints
@@ -237,6 +238,13 @@ Un diagrama es como un mapa y nos ayuda a entender cuáles son las entidades con
 - Números: INTEGER, BIGINT, SMALLINT, DECIMAL(n,s), NUMERIC(n,s)
 - Fecha/hora: DATE, TIME, DATETIME, TIMESTAMP
 - Lógicos: BOOLEAN
+
+## Diferencias
+> char(n) : cadena que permite guardar un número fijo de caracteres.  
+varchar(n): se usa cuando no se conoce el tamaño de la cadena. Tiene un máximo de 255 caracteres.
+Text : 
+
+
 
 ### Constraints (Restricciones)
 
