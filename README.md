@@ -220,11 +220,14 @@ hospital puede estar vacia o no
 ![src/cardinalidad_cero_a_muchos.PNG](src/cardinalidad_cero_a_muchos.PNG)
 
 #### Multiples muchos
+
 un alumno puede estar inscripto en una o varias clases, una clase puede contener varios alumnos
 ![src/cardinalidad_muchos_a_muchos.PNG](src/cardinalidad_muchos_a_muchos.PNG)
 
 #### Diagrama ER
+
 Un diagrama es como un mapa y nos ayuda a entender cuáles son las entidades con las que vamos a trabajar, cuáles son sus relaciones y qué papel van a jugar en las aplicaciones de la base de datos
+![src/diagrama_er.PNG](src/diagrama_er.PNG)
 
 **Table of Contents**
 
