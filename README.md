@@ -263,7 +263,12 @@ La normalización como su nombre lo indica nos ayuda a dejar todo de una forma n
 ![src/aplicando_la_2da_FN.PNG](src/aplicando_la_2da_FN.PNG)
 
 - Tercera forma normal (3FN): Cumple 1FN y 2FN y los campos que NO son clave, NO deben tener dependencias.
+
+![src/aplicando_la_3era_FN.PNG](src/aplicando_la_3era_FN.PNG)
+
 - Cuarta forma normal (4FN): Cumple 1FN, 2FN, 3FN y los campos multivaluados se identifican por una clave única.
+
+![src/aplicando_la_4ta_FN.PNG](src/aplicando_la_4ta_FN.PNG)
 
 **Table of Contents**
 
