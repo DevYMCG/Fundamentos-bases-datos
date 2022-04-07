@@ -347,3 +347,20 @@ Algunos autores precisan una 5FN que hace referencia a que después de realizar 
 ![src/diagrama_fisico.PNG](src/diagrama_fisico.PNG)
 ![src/diagrama_fisico_1.PNG](src/diagrama_fisico_1.PNG)
 
+### ¿Qué es RDB y RDBMS?
+
+RDB (relational database)
+
+RDBMS (Relational DataBase Magement System) Sistema Manejador de Bases de datos relacionales.
+
+La diferencia entre ambos es que las BBDD son un conjunto de datos pertenecientes ( o al menos en teoría) a un mismo tipo de contexto, que guarda los datos de forma persistente para un posterior uso, y el Sistema de gestión de BBDD o sistema manejador, es el que nos permite acceder a ella, es un software, herramienta que sirve de conexión entre las BBDD y el usuario (nos presenta una interfaz para poder gestionarla, manejarla).
+
+RDBMS
+
+MySQL
+PostgreSQL
+Etc
+Todas toman un lenguaje base, pero cada uno lo apropia, imponiéndole diferentes reglas y características.
+
+Aporte creado por Jose Alejandro Rivillas
+
