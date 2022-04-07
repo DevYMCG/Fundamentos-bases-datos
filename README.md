@@ -383,3 +383,24 @@ Forma gráfica de representar y ver como funciona nuestra base de datos.
 Hoy en día muchas empresas ya no tienen instalados en sus servidores los RDBMS sino que los contratan a otras personas. Estos servicios administrados cloud te permiten concentrarte en la base de datos y no en su administración y actualización. 
 
 ![src/servicios_administrados.PNG](src/servicios_administrados.PNG)
+
+### Historia de SQL
+
+SQL significa (Structured Query Language) y tiene una estructura clara y fija. Su objetivo es hacer un solo lenguaje para consultar cualquier manejador de bases de datos volviéndose un gran estándar.
+
+Ahora existe el NOSQL o Not Only Structured Query Language que significa que no sólo se utiliza SQL en las bases de datos no relacionales.
+
+### DDL create
+
+SQL tiene dos grandes sublenguajes:
+DDL o Data Definition Language que nos ayuda a crear la estructura de una base de datos. Existen 3 grandes comandos:
+
+- Create: Nos ayuda a crear bases de datos, tablas, vistas, índices, etc.
+- Alter: Ayuda a alterar o modificar entidades.
+- Drop: Nos ayuda a borrar. Hay que tener cuidado al utilizarlo.
+
+## 3 objetos que manipularemos con el lenguaje DDL:
+
+- Database o bases de datos
+- Table o tablas. Son la traducción a SQL de las entidades
+- View o vistas: Se ofrece la proyección de los datos de la base de datos de forma entendible.
