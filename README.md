@@ -343,3 +343,7 @@ De esta manera, aunque parezca que la información se multiplicó, en realidad l
 Algunos autores precisan una 5FN que hace referencia a que después de realizar esta normalización a través de uniones (JOIN) permita regresar a la data original de la cual partió.
 
 ### Diagrama Físico: normalizando Platziblog
+
+![src/diagrama_fisico.PNG](src/diagrama_fisico.PNG)
+![src/diagrama_fisico_1.PNG](src/diagrama_fisico_1.PNG)
+
