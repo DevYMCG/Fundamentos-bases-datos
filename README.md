@@ -229,8 +229,7 @@ un alumno puede estar inscripto en una o varias clases, una clase puede contener
 Un diagrama es como un mapa y nos ayuda a entender cuáles son las entidades con las que vamos a trabajar, cuáles son sus relaciones y qué papel van a jugar en las aplicaciones de la base de datos
 ![src/diagrama_er.PNG](src/diagrama_er.PNG)
 
-## Diagrama Físico: tipos de datos y constraints
-Para llevar a la práctica un diagrama debemos ir más allá y darle detalle con parámetros como:
+#### Diagrama Físico: tipos de datos y constraints
 
 ### Tipos de dato:
 
