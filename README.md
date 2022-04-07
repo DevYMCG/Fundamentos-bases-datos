@@ -239,18 +239,14 @@ Un diagrama es como un mapa y nos ayuda a entender cuáles son las entidades con
 - Fecha/hora: DATE, TIME, DATETIME, TIMESTAMP
 - Lógicos: BOOLEAN
 
-## tipo de datos de texto
+## Descripción tipo de datos
 > char(n) : cadena que permite guardar un número fijo de caracteres.  
 varchar(n): se usa cuando no se conoce el tamaño de la cadena. Tiene un máximo de 255 caracteres.
 Text : Guarda cadenas demasiado grandes que pueden sobrepasar los 255 caracteres. 
-
-## Tipo de datos númericos
-> Integer : tipo de dato entero que indica que se basa en un número
+ Integer : tipo de dato entero que indica que se basa en un número
 Bigint y smallint : lo usamos cuando sabemos que va a ser un número muy grande
 Decimal y numeric : números decimales
-
-## Fecha/hora
-> DATE: solo contiene la fecha año/mes/dia,
+ DATE: solo contiene la fecha año/mes/dia,
  TIME: contiene la hora 
  DATETIME: tienen tanto el dia como la hora
  TIMESTAMP: tienen tanto el dia como la hora
