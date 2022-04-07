@@ -407,7 +407,8 @@ DDL o Data Definition Language que nos ayuda a crear la estructura de una base d
 
 ### DDL drop
 
-Básicamente borra o desaparece de nuestra base de datos algún elemento.
+Básicamente borra o desaparece de nuestra base de datos algún elemento. 
+> DROP TABLE people 
 
 ### DML
 
