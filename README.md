@@ -376,6 +376,7 @@ link
 
 ### Clientes gráficos
 
-Forma gráfica de representar y ver como funciona de forma grafica nuestra base de datos.
+Forma gráfica de representar y ver como funciona nuestra base de datos.
 
 ### Servicios administrados
+Hoy en día muchas empresas ya no tienen instalados en sus servidores los RDBMS sino que los contratan a otras personas. Estos servicios administrados cloud te permiten concentrarte en la base de datos y no en su administración y actualización.
