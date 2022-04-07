@@ -200,15 +200,23 @@ Las relaciones tienen una propiedad llamada cardinalidad y tiene que ver con nú
 ![src/relaciones.PNG](src/relaciones.PNG)
 
 ### Cardinalidad: 1 a 1
+una persona tiene unos datos de contactos y  una serie de datos de contacto solo pueden 
+pertenecer a una sola persona
 ![src/cardinalidad_uno_a_uno.PNG](src/cardinalidad_uno_a_uno.PNG)
 
 ### Cardinalidad: 0 a 1
+la session actual tiene que tener un usuario, pero un usuario puede no estar en 
+sesion en este momento
 ![src/cardinalidad_cero_a_uno.PNG](src/cardinalidad_cero_a_uno.PNG)
 
 ### Cardinalidad: 1 a N
+una persona puede tener muchos automoviles, pero un automovil solo puede 
+pertenecer a una persona
 ![src/cardinalidad_uno_a_muchos.PNG](src/cardinalidad_uno_a_muchos.PNG)
 
 ### Cardinalidad: 0 a N
+un paciente siempre esta asignado a una habitación de hospital pero una habitación de
+hospital puede estar vacia o no
 ![src/cardinalidad_cero_a_muchos.PNG](src/cardinalidad_cero_a_muchos.PNG)
 
 #### Multiples muchos
@@ -216,7 +224,7 @@ un alumno puede estar inscripto en una o varias clases, una clase puede contener
 ![src/cardinalidad_muchos_a_muchos.PNG](src/cardinalidad_muchos_a_muchos.PNG)
 
 #### Diagrama ER
-Un diagrama es como un mapa y nos ayuda a entender cuáles son las entidades con las que vamos a trabajar, cuáles son sus relaciones y qué papel van a jugar en las aplicaciones de la base de dato
+Un diagrama es como un mapa y nos ayuda a entender cuáles son las entidades con las que vamos a trabajar, cuáles son sus relaciones y qué papel van a jugar en las aplicaciones de la base de datos
 
 **Table of Contents**
 
