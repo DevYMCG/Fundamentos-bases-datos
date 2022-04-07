@@ -34,8 +34,6 @@
   - [Modulo 3 RDBMS (MySQL) o cómo hacer lo anterior de manera práctica](#modulo-3-rdbms-mysql-o-cómo-hacer-lo-anterior-de-manera-práctica)
     - [ RDB Qué](#clase-13-rdb-qué)
     - [ Instalación local de un RDBMS (Windows)](#clase-14-instalación-local-de-un-rdbms-windows)
-    - [ Instalación local de un RDBMS (Mac)](#clase-15-instalación-local-de-un-rdbms-mac)
-    - [ Instalación local de un RDBMS (Ubuntu)](#clase-16-instalación-local-de-un-rdbms-ubuntu)
     - [Clientes Graficos](#clase-17-clientes-graficos)
     - [Servicios administrados](#clase-18-servicios-administrados)
   - [Modulo 4 SQL hasta en la sopa](#modulo-4-sql-hasta-en-la-sopa)
@@ -363,4 +361,17 @@ Etc
 Todas toman un lenguaje base, pero cada uno lo apropia, imponiéndole diferentes reglas y características.
 
 Aporte creado por Jose Alejandro Rivillas
+
+### Instalación local de un RDBMS (Windows)
+
+Hay dos maneras de acceder a manejadores de bases de datos:
+
+- Instalar en máquina local un administrador de bases relacional.
+- Tener ambientes de desarrollo especiales o servicios cloud.
+
+Root es el usuario principal que tendrá todos los permisos y por lo tanto en ambientes de producción hay que tener mucho cuidado al configurarlo.
+
+link de descarga de nuestrp RDBMS a usar https://dev.mysql.com/downloads/windows/installer/5.6.html
+
+### Clientes gráficos
 
