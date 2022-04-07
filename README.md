@@ -185,6 +185,7 @@ Los **atributos llave** son aquellos que identifican a la entidad y no pueden se
 #### Entidades y atributos del Blog
 ![src/diagrama_entidad_relacional_blog.PNG](src/diagrama_entidad_relacional_blog.PNG)
 ![src/atributos_del_post.PNG](src/atributos_del_post.PNG)
+![src/atributos_del_usuario.PNG](src/atributos_del_usuario.PNG)
 
 **Table of Contents**
 
