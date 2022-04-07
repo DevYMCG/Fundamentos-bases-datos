@@ -186,6 +186,7 @@ Los **atributos llave** son aquellos que identifican a la entidad y no pueden se
 ![src/diagrama_entidad_relacional_blog.PNG](src/diagrama_entidad_relacional_blog.PNG)
 ![src/atributos_del_post.PNG](src/atributos_del_post.PNG)
 ![src/atributos_del_usuario.PNG](src/atributos_del_usuario.PNG)
+![src/atributos_del_categoria.PNG](src/atributos_del_categoria.PNG)
 
 #### Relaciones
 Las relaciones nos permiten ligar o unir nuestras diferentes entidades y se representan con rombos. Por convención se definen
@@ -340,3 +341,5 @@ Aplicado al ejemplo anterior la tabla materia se independiza y se relaciona con 
 De esta manera, aunque parezca que la información se multiplicó, en realidad la descompusimos o normalizamos de manera que a un sistema le sea fácil de reconocer y mantener la consistencia de los datos.
 
 Algunos autores precisan una 5FN que hace referencia a que después de realizar esta normalización a través de uniones (JOIN) permita regresar a la data original de la cual partió.
+
+### Diagrama Físico: normalizando Platziblog
