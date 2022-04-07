@@ -211,6 +211,10 @@ Las relaciones tienen una propiedad llamada cardinalidad y tiene que ver con nú
 ### Cardinalidad: 0 a N
 ![src/cardinalidad_cero_a_muchos.PNG](src/cardinalidad_cero_a_muchos.PNG)
 
+#### Multiples muchos
+un alumno puede estar inscripto en una o varias clases, una clase puede contener varios alumnos
+![src/cardinalidad_muchos_a_muchos.PNG](src/cardinalidad_muchos_a_muchos.PNG)
+
 **Table of Contents**
 
 [TOCM]
