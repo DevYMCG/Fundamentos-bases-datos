@@ -399,7 +399,7 @@ DDL o Data Definition Language que nos ayuda a crear la estructura de una base d
 - Alter: Ayuda a alterar o modificar entidades.
 - Drop: Nos ayuda a borrar. Hay que tener cuidado al utilizarlo.
 
-## 3 objetos que manipularemos con el lenguaje DDL:
+ 3 objetos que manipularemos con el lenguaje DDL:
 
 - Database o bases de datos
 - Table o tablas. Son la traducción a SQL de las entidades
