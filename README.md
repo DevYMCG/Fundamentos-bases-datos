@@ -371,7 +371,11 @@ Hay dos maneras de acceder a manejadores de bases de datos:
 
 Root es el usuario principal que tendrá todos los permisos y por lo tanto en ambientes de producción hay que tener mucho cuidado al configurarlo.
 
-link de descarga de nuestrp RDBMS a usar https://dev.mysql.com/downloads/windows/installer/5.6.html
+link 
+ <https://dev.mysql.com/downloads/windows/installer/5.6.html>
 
 ### Clientes gráficos
 
+Forma gráfica de representar y ver como funciona de forma grafica nuestra base de datos.
+
+### Servicios administrados
