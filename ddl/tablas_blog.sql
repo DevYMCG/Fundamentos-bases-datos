@@ -41,3 +41,13 @@ ADD Constraint posts_usuarios
     REFERENCES usuarios (id)
     ON DELETE NO ACTION
     ON UPDATE CASCADE;
+
+ALTER TABLE posts
+ADD INDEX posts_categorias_idx (categoria_id asc);
+
+ALTER TABLE posts
+ADD Constraint posts_categorias
+    FOREIGN KEY (categoria_id)
+    REFERENCES categorias (id)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
