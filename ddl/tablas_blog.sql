@@ -19,3 +19,15 @@ CREATE TABLE usuarios(
     PRIMARY KEY (id),
     UNIQUE INDEX email_UNIQUE (email asc)
 );
+
+CREATE TABLE posts(
+    id int not null auto_increment,
+    titulo varchar(150) not null,
+    fecha_publicacion Timestamp,
+    contenido Text,
+    status Char(8) Check(IN('activo', 'inactivo')),
+    usuario_id int not null,
+    categoria_id int not null,
+    PRIMARY KEY (id),
+    UNIQUE INDEX email_UNIQUE (email asc)
+);

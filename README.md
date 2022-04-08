@@ -423,7 +423,7 @@ DML trata del contenido de la base de datos. Son las siglas de Data Manipulation
 
 La utilidad más grande de SQL fue unificar la forma en la que pensamos y hacemos preguntas a un repositorio de datos. Ahora que nacen nuevas bases de datos igualmente siguen tomando elementos de SQL.
 
-### tablas independientes
+### Tablas independientes del blog
 
 - Una buena práctica es comenzar creando las entidades que no tienen una llave foránea.
 - Generalmente en los nombres de bases de datos se evita usar eñes o acentos para evitar problemas en los manejadores de las bases de datos.
@@ -450,5 +450,25 @@ CREATE TABLE usuarios(
     PRIMARY KEY (id),
     UNIQUE INDEX email_UNIQUE (email asc)
 )
+
+```
+
+# Tablas dependientes del Blog
+
+El comando “cascade” sirve para que cada que se haga un update en la tabla principal, se refleje también en la tabla en la que estamos creando la relación.
+
+```sql
+
+CREATE TABLE posts(
+    id int not null auto_increment,
+    titulo varchar(150) not null,
+    fecha_publicacion Timestamp,
+    contenido Text,
+    status Char(8) Check(IN('activo', 'inactivo')),
+    usuario_id int not null,
+    categoria_id int not null,
+    PRIMARY KEY (id),
+    UNIQUE INDEX email_UNIQUE (email asc)
+);
 
 ```
