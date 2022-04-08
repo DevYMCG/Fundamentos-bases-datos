@@ -428,7 +428,8 @@ La utilidad más grande de SQL fue unificar la forma en la que pensamos y hacemo
 - Una buena práctica es comenzar creando las entidades que no tienen una llave foránea.
 - Generalmente en los nombres de bases de datos se evita usar eñes o acentos para evitar problemas en los manejadores de las bases de datos.
 
-> CREATE TABLE categorias(
+```sql
+CREATE TABLE categorias(
     id int not null auto_increment,
     categoria varchar(30) not null,
     PRIMARY KEY (id)
@@ -439,3 +440,5 @@ CREATE TABLE etiquetas(
     nombre_etiqueta varchar(30) not null,
     PRIMARY KEY (id)
 )
+
+```
