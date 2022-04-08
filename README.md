@@ -495,3 +495,23 @@ ADD Constraint posts_categorias
 
 - Las tablas transitivas sirven como puente para unir dos tablas. No tienen contenido semántico.
 - Reverse Engineer nos reproduce el esquema del cual nos basamos para crear nuestras tablas. Es útil cuando llegas a un nuevo trabajo y quieres entender cuál fue la mentalidad que tuvieron al momento de crear las bases de datos.
+
+```sql
+CREATE TABLE comentarios(
+    id int not null auto_increment,
+    comentario Text not null,
+    usuario_id int not null,
+    post_id int not null,
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE comentarios
+ADD INDEX comentarios_usuarios_idx (usuario_id asc);
+
+ALTER TABLE comentarios
+ADD Constraint comentarios_usuario
+    FOREIGN KEY (usuario_id)
+    REFERENCES usuarios (id)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+```
