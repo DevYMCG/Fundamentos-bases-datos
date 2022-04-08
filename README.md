@@ -470,4 +470,14 @@ CREATE TABLE posts(
     PRIMARY KEY (id)
 );
 
+ALTER TABLE posts
+ADD INDEX posts_usuarios_idx (usuario_id asc);
+
+ALTER TABLE posts
+ADD Constraint posts_usuarios
+    FOREIGN KEY (usuario_id)
+    REFERENCES usuarios (id)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE;
+
 ```
