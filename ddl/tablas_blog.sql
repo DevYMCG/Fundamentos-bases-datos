@@ -73,11 +73,11 @@ ADD Constraint comentarios_usuarios
     ON UPDATE CASCADE;
 
 ALTER TABLE comentarios
-ADD INDEX comentarios_posts_idx (posts_id asc);
+ADD INDEX comentarios_post_idx (post_id asc);
 
 ALTER TABLE comentarios
 ADD Constraint comentarios_posts
-    FOREIGN KEY (posts_id)
+    FOREIGN KEY (post_id)
     REFERENCES posts (id)
     ON DELETE NO ACTION
     ON UPDATE CASCADE;

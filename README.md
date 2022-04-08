@@ -514,4 +514,15 @@ ADD Constraint comentarios_usuario
     REFERENCES usuarios (id)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION;
+
+ALTER TABLE comentarios
+ADD INDEX comentarios_post_idx (post_id asc);
+
+ALTER TABLE comentarios
+ADD Constraint comentarios_posts
+    FOREIGN KEY (post_id)
+    REFERENCES posts (id)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE;
+
 ```
