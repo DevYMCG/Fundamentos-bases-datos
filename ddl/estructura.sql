@@ -45,3 +45,23 @@ INSERT INTO `people` (`person_id`, `last_name`, `first_name`, `address`, `city`)
 VALUES ('1', 'Vásquez', 'Israel', 'Calle Famosa Num 1', 'México'),
 	   ('2', 'Hernández', 'Mónica', 'Reforma 222', 'México'),
 	   ('3', 'Alanis', 'Edgar', 'Central 1', 'Monterrey');
+
+/*update*/
+
+UPDATE people
+SET last_name = 'Chávez', city='Mérida'
+WHERE person_id = 1
+
+UPDATE people
+SET last_name = 'Juan'
+WHERE city = 'Mérida'
+
+UPDATE people
+SET first_name = 'Juan'
+
+/*Delete*/
+
+DELETE FROM people
+WHERE person_id = 1
+
+DELETE FROM people;
