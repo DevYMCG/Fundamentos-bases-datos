@@ -525,4 +525,31 @@ ADD Constraint comentarios_posts
     ON DELETE NO ACTION
     ON UPDATE CASCADE;
 
+CREATE TABLE posts_etiquetas(
+    id int not null auto_increment,
+    post_id int not null,
+    etiqueta_id int not null,
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE posts_etiquetas
+ADD INDEX postsetiquetas_post_idx (post_id asc);
+
+ALTER TABLE posts_etiquetas
+ADD Constraint postsetiquetas_posts
+    FOREIGN KEY (post_id)
+    REFERENCES posts (id)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+
+ALTER TABLE posts_etiquetas
+ADD INDEX postsetiquetas_etiquetas_idx (post_id asc);
+
+ALTER TABLE posts_etiquetas
+ADD Constraint postsetiquetas_etiquetas
+    FOREIGN KEY (etiqueta_id)
+    REFERENCES etiquetas (id)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+
 ```
