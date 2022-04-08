@@ -9,3 +9,13 @@ CREATE TABLE etiquetas(
     nombre_etiqueta varchar(30) not null,
     PRIMARY KEY (id)
 )
+
+CREATE TABLE usuarios(
+    id int not null auto_increment,
+    login varchar(30) not null,
+    password varchar(32) not null,
+    nickname varchar(40) not null,
+    email varchar(40) not null,
+    PRIMARY KEY (id),
+    UNIQUE INDEX email_UNIQUE (email asc)
+);
