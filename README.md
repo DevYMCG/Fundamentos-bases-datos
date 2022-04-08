@@ -430,12 +430,12 @@ La utilidad más grande de SQL fue unificar la forma en la que pensamos y hacemo
 
 > CREATE TABLE categorias(
     id int not null auto_increment,
-    categoria varchar(30),
-    PRIMARY KEY (person_id)
+    categoria varchar(30) not null,
+    PRIMARY KEY (id)
 )
 
 CREATE TABLE etiquetas(
     id int not null auto_increment,
-    nombre_etiqueta varchar(30),
+    nombre_etiqueta varchar(30) not null,
     PRIMARY KEY (id)
 )
