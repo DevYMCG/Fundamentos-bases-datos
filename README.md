@@ -553,3 +553,7 @@ ADD Constraint postsetiquetas_etiquetas
     ON UPDATE NO ACTION;
 
 ```
+
+# Modelo logico
+
+![src/reverse_ingenier.PNG](src/reverse_ingenier.PNG)
