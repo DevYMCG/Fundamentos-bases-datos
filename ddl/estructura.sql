@@ -70,3 +70,9 @@ DELETE FROM people;
 
 SELECT first_name, last_name
 FROM people
+
+select city, count(*) as total
+from people
+where actve = true
+group by city
+having total >=2

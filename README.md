@@ -570,3 +570,11 @@ Los queries son la forma en la que estructuramos las preguntas que se harán a l
 El query tiene básicamente 2 partes: SELECT y FROM y puede aparecer una tercera como WHERE.
 
 - La estrellita o asterisco (*) quiere decir que vamos a seleccionar todo sin filtrar campos.
+
+```sql
+select city, count(*) as total
+from people
+where actve = true
+group by city
+having total >=2
+```
