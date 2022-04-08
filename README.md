@@ -491,3 +491,7 @@ ADD Constraint posts_categorias
     ON UPDATE CASCADE;
 
 ```
+# Tablas transitivas del Blog
+
+- Las tablas transitivas sirven como puente para unir dos tablas. No tienen contenido semántico.
+- Reverse Engineer nos reproduce el esquema del cual nos basamos para crear nuestras tablas. Es útil cuando llegas a un nuevo trabajo y quieres entender cuál fue la mentalidad que tuvieron al momento de crear las bases de datos.
