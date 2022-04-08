@@ -65,3 +65,8 @@ DELETE FROM people
 WHERE person_id = 1
 
 DELETE FROM people;
+
+/*SELECT*/
+
+SELECT first_name, last_name
+FROM people
