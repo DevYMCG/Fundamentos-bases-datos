@@ -419,4 +419,11 @@ DML trata del contenido de la base de datos. Son las siglas de Data Manipulation
 - Delete: Esta sentencia es riesgosa porque puede borrar el contenido de una tabla.
 - Select: Trae información de la base de datos.
 
-### 
+### ¿Qué tan standard es SQL?
+
+La utilidad más grande de SQL fue unificar la forma en la que pensamos y hacemos preguntas a un repositorio de datos. Ahora que nacen nuevas bases de datos igualmente siguen tomando elementos de SQL.
+
+### tablas independientes
+
+- Una buena práctica es comenzar creando las entidades que no tienen una llave foránea.
+- Generalmente en los nombres de bases de datos se evita usar eñes o acentos para evitar problemas en los manejadores de las bases de datos.
