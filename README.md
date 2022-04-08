@@ -574,7 +574,8 @@ El query tiene básicamente 2 partes: SELECT y FROM y puede aparecer una tercera
 ```sql
 select city, count(*) as total
 from people
-where actve = true
+where active = true
 group by city
+order by total desc
 having total >=2
 ```
