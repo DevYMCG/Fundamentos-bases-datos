@@ -590,7 +590,7 @@ SELECT titulo AS encabezado
 FROM posts;
 ```
 
-Existe una función de SELECT para poder contar la cantidad de registros. Esa información (un número) será el resultado del query:
+- Existe una función de SELECT para poder contar la cantidad de registros. Esa información (un número) será el resultado del query:
 
 ```sql
 SELECT COUNT(*)
