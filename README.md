@@ -651,3 +651,11 @@ RIGHT JOIN posts on usuarios.id = posts.usuario_id
 where posts.usuario_id is null;
 
 ```
+
+### WHERE
+
+WHERE es la sentencia que nos ayuda a filtrar tuplas o registros dependiendo de las características que elegimos.
+
+- La propiedad LIKE nos ayuda a traer registros de los cuales conocemos sólo una parte de la información.
+- La propiedad BETWEEN nos sirve para arrojar registros que estén en el medio de dos. Por ejemplo los registros con id entre 20 y 30.
+
