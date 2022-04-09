@@ -603,3 +603,6 @@ FROM indica de dónde se deben traer los datos y puede ayudar a hacer sentencias
 
 Los diagramas de Venn son círculos que se tocan en algún punto para ver dónde está la intersección de conjuntos. Ayudan mucho para poder formular la sentencia JOIN de la manera adecuada dependiendo del query que se quiere hacer.
 
+![src/join.PNG](src/join.PNG)
+
+![src/join_intercepcion.PNG](src/join_intercepcion.PNG)
