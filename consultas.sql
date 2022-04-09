@@ -82,3 +82,9 @@ SELECT *
 FROM usuarios 
 RIGHT JOIN posts on usuarios.id = posts.usuario_id
 where posts.usuario_id is null;
+
+/*
+    @Traer todos los posts donde el estatus sea
+    diferente a activo
+*/
+SELECT * FROM posts WHERE estatus<>'activo';

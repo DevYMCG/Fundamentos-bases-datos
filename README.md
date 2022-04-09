@@ -662,5 +662,5 @@ WHERE es la sentencia que nos ayuda a filtrar tuplas o registros dependiendo de 
 ```sql
 SELECT *
 FROM posts
-WHERE estatus='activo'
+WHERE estatus<>'activo'
 ```
