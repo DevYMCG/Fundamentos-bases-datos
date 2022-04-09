@@ -37,3 +37,14 @@ where posts.usuario_id is null;
 SELECT * 
 FROM usuarios 
 RIGHT JOIN posts on usuarios.id = posts.usuario_id;
+
+/*
+    @Traer todos los POSTS pero solo aquellos
+    que no tengan ningún usuario
+
+*/
+
+SELECT * 
+FROM usuarios 
+RIGHT JOIN posts on usuarios.id = posts.usuario_id
+where usuario_id is null;

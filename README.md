@@ -618,6 +618,12 @@ where posts.usuario_id is null;
 SELECT * 
 FROM usuarios 
 RIGHT JOIN posts on usuarios.id = posts.usuario_id;
+
+SELECT * 
+FROM usuarios 
+RIGHT JOIN posts on usuarios.id = posts.usuario_id
+where usuario_id is null;
+
 ```
 
 ![src/join_intercepcion.PNG](src/join_intercepcion.PNG)
