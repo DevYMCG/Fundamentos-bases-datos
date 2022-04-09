@@ -48,3 +48,37 @@ SELECT *
 FROM usuarios 
 RIGHT JOIN posts on usuarios.id = posts.usuario_id
 where usuario_id is null;
+
+/*
+    @Traer todos los usuarios que tengan
+    posts
+*/
+SELECT * 
+FROM usuarios INNER JOIN posts on usuarios.id = posts.usuario_id;
+
+/*
+    @Traer todos los usuarios que tengan
+    o que no tengan post y trae todos los posts
+    que tengan o no tengan usuario
+*/
+SELECT * 
+FROM usuarios 
+LEFT JOIN posts on usuarios.id = posts.usuario_id
+UNION
+SELECT * 
+FROM usuarios 
+RIGHT JOIN posts on usuarios.id = posts.usuario_id;
+
+/*
+    @Traer solo los usuarios que tengan el usuario_id vacio
+    y traer los posts que tengan el post_id vacio
+*/
+SELECT * 
+FROM usuarios 
+LEFT JOIN posts on usuarios.id = posts.usuario_id
+where usuario_id is null
+UNION
+SELECT * 
+FROM usuarios 
+RIGHT JOIN posts on usuarios.id = posts.usuario_id
+where posts.usuario_id is null;

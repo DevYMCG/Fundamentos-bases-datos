@@ -627,3 +627,27 @@ where usuario_id is null;
 ```
 
 ![src/join_intercepcion.PNG](src/join_intercepcion.PNG)
+
+```sql
+SELECT * 
+FROM usuarios INNER JOIN posts on usuarios.id = posts.usuario_id;
+
+SELECT * 
+FROM usuarios 
+LEFT JOIN posts on usuarios.id = posts.usuario_id
+UNION
+SELECT * 
+FROM usuarios 
+RIGHT JOIN posts on usuarios.id = posts.usuario_id;
+
+SELECT * 
+FROM usuarios 
+LEFT JOIN posts on usuarios.id = posts.usuario_id
+where usuario_id is null
+UNION
+SELECT * 
+FROM usuarios 
+RIGHT JOIN posts on usuarios.id = posts.usuario_id
+where posts.usuario_id is null;
+
+```
