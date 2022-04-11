@@ -727,3 +727,39 @@ ORDER BY post_month;
 ```
 
 Nota: Cuando se desea hacer una selección de rows, se hace con WHERE, pero cuando se desea hacer una selección de rows agrupados debe hacerse con HAVING.
+
+### El interminable agujero de conejo (Nested queries)
+
+Los Nested queries significan que dentro de un query podemos hacer otro query. Esto sirve para hacer join de tablas, estando una en memoria. También teniendo un query como condicional del otro.
+
+Este proceso puede ser tan profundo como quieras, teniendo infinitos queries anidados.
+Se le conoce como un producto cartesiano ya que se multiplican todos los registros de una tabla con todos los del nuevo query. Esto provoca que el query sea difícil de procesar por lo pesado que puede resultar.
+
+```sql
+SELECT new_table_projection.date, count(*) as posts_count 
+from ( 
+    SELECT Date(MIN(fecha_publicacion)) AS date, YEAR(fecha_publicacion) as post_year 
+    FROM posts 
+    GROUP by post_year 
+  ) as new_table_projection 
+group by new_table_projection.date 
+order by new_table_projection.date;
+
+select *
+from posts
+where fecha_publicacion = (
+    select max(fecha_publicacion) 
+    from posts
+)
+```
+### ¿Cómo convertir una pregunta en un query SQL?
+
+De pregunta a Query
+
+- SELECT: Lo que quieres mostrar
+- FROM: De dónde voy a tomar los datos
+- WHERE: Los filtros de los datos que quieres mostrar
+- GROUP BY: Los rubros por los que me interesa agrupar la información
+- ORDER BY: El orden en que quiero presentar mi información
+- HAVING: Los filtros que quiero que mis datos agrupados tengan
+

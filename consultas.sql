@@ -186,11 +186,27 @@ FROM `posts`
 ORDER by fecha_publicacion desc
 LIMIT 5;
 
-/*Cuando se desea hacer una selección de rows, se hace con WHERE, 
-pero cuando se desea hacer una selección de rows agrupados debe hacerse con HAVING.*/
+/*
+    @Cuando se desea hacer una selección de rows, se hace con WHERE, 
+    pero cuando se desea hacer una selección de rows agrupados debe
+     hacerse con HAVING.
+*/
 
 SELECT estatus, monthname(fecha_publicacion) as post_month, count(*) as post_quantity 
 FROM `posts`
 GROUP by estatus, post_month
 HAVING post_quantity > 1
 ORDER BY post_month;
+
+/*  
+    @Quiero seleccionar todo de la tabla posts pero la condicion es
+    que la fecha de publicacion sea igual a la fecha maxima de publicacion
+
+*/
+
+select *
+from posts
+where fecha_publicacion = (
+    select max(fecha_publicacion) 
+    from posts
+)
