@@ -122,3 +122,15 @@ SELECT * FROM posts WHERE fecha_publicacion BETWEEN '2024-01-01' and '2025-01-01
     @Seleccionar los posts que esten en este rango de fechas
 */
 SELECT * FROM posts WHERE year(fecha_publicacion) BETWEEN '2024' and '2025';
+
+/* 
+    @Seleccionar los posts del mes de abril
+*/
+SELECT * FROM posts WHERE month(fecha_publicacion)='04';
+
+/* 
+    @Seleccionar los posts donde usuario_id no sea nulo y
+    el estatus sea igual a activo
+*/
+select * from posts 
+where usuario_id is not null and estatus = 'activo';
