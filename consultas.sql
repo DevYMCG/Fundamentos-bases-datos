@@ -211,16 +211,24 @@ where fecha_publicacion = (
     from posts
 )
 
-/*  @Cuantas etiquetas estan ligadas a un blog*/
+/*  @Cuantas etiquetas hay por post*/
 
-select post_id, COUNT(etiqueta_id) as etiqueta
-from posts_etiquetas
-group by post_id;
+select posts.titulo posts,etiquetas.nombre_etiqueta etiquetas, COUNT(etiqueta_id) as num_etiqueta
+from posts_etiquetas 
+join etiquetas on posts_etiquetas.etiqueta_id=etiquetas.id 
+join posts on posts_etiquetas.post_id=posts.id 
+group by post_id 
+order by num_etiqueta;
 
-SELECT etiquetas.nombre_etiqueta, count(posts_etiquetas.etiqueta_id) cantidad_etiquetas
-FROM etiquetas join posts_etiquetas on etiquetas.id = posts_etiquetas.etiqueta_id
-GROUP by etiquetas.id
+/*  @Cuales etiquetas pertenecen a este post*/
+select posts.titulo posts, GROUP_CONCAT(etiquetas.nombre_etiqueta)
+from posts_etiquetas 
+join etiquetas on posts_etiquetas.etiqueta_id=etiquetas.id 
+join posts on posts_etiquetas.post_id=posts.id 
+group by post_id 
 
-SELECT posts.titulo, count(posts_etiquetas.post_id) cantidad_posts
-FROM posts join posts_etiquetas on posts.id = posts_etiquetas.post_id
-GROUP by posts.id
+/*  @Cuales son las etiquetas que no tienen ningun post*/
+select *
+from etiquetas
+	LEFT JOIN posts_etiquetas on etiquetas.id = posts_etiquetas.etiqueta_id
+  WHERE posts_etiquetas.etiqueta_id is null;

@@ -767,3 +767,10 @@ De pregunta a Query
 
 - GROUP_CONCAT toma el resultado del query y lo pone como campo separado por comas.
 
+```sql
+select posts.titulo posts, GROUP_CONCAT(etiquetas.nombre_etiqueta)
+from posts_etiquetas 
+join etiquetas on posts_etiquetas.etiqueta_id=etiquetas.id 
+join posts on posts_etiquetas.post_id=posts.id 
+group by post_id 
+```
