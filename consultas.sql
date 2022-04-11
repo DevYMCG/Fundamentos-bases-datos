@@ -168,3 +168,29 @@ SELECT monthname(fecha_publicacion) as post_month, count(*) as post_quantity
 */
 SELECT estatus, monthname(fecha_publicacion) as post_month, count(*) as post_quantity 
 FROM `posts` GROUP by estatus, post_month;
+
+/* 
+    @Ordenar los registros por fecha de publicación 
+    de manera ascendente
+*/
+
+SELECT * FROM `posts` ORDER by fecha_publicacion;
+
+/* 
+    @Ordenar los registros por fecha de publicación 
+    de manera descendente y limitarlo a los primeros 5
+*/
+
+SELECT * 
+FROM `posts` 
+ORDER by fecha_publicacion desc
+LIMIT 5;
+
+/*Cuando se desea hacer una selección de rows, se hace con WHERE, 
+pero cuando se desea hacer una selección de rows agrupados debe hacerse con HAVING.*/
+
+SELECT estatus, monthname(fecha_publicacion) as post_month, count(*) as post_quantity 
+FROM `posts`
+GROUP by estatus, post_month
+HAVING post_quantity > 1
+ORDER BY post_month;

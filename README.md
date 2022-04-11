@@ -693,3 +693,37 @@ SELECT year(fecha_publicacion) as post_year, count(*) as post_quantity
 FROM `posts`
 GROUP by post_year
 ```
+
+### ORDER BY y HAVING
+
+La sentencia ORDER BY tiene que ver con el ordenamiento de los datos dependiendo de los criterios que quieras usar.
+
+- ASC sirve para ordenar de forma ascendente.
+- DESC sirve para ordenar de forma descendente.
+- LIMIT se usa para limitar la cantidad de resultados que arroja el query.
+
+HAVING tiene una similitud muy grande con WHERE, sin embargo el uso de ellos depende del orden. Cuando se quiere seleccionar tuplas agrupadas únicamente se puede hacer con HAVING
+
+```sql
+
+SELECT * 
+FROM `posts` 
+ORDER by fecha_publicacion asc;
+
+SELECT * 
+FROM `posts` 
+ORDER by fecha_publicacion desc;
+
+SELECT * 
+FROM `posts` 
+ORDER by fecha_publicacion desc
+LIMIT 5;
+
+SELECT estatus, monthname(fecha_publicacion) as post_month, count(*) as post_quantity 
+FROM `posts`
+GROUP by estatus, post_month
+HAVING post_quantity > 1
+ORDER BY post_month;
+```
+
+Nota: Cuando se desea hacer una selección de rows, se hace con WHERE, pero cuando se desea hacer una selección de rows agrupados debe hacerse con HAVING.
