@@ -793,3 +793,14 @@ Tipos de bases de datos no relacionales:
 - Basadas en grafos: Basadas en teoría de grafos, sirven para entidades que se encuentran interconectadas por múltiples relaciones. Ideales para almacenar relaciones complejas. Ejemplos: neo4j, TITAN.
 - En memoria: Pueden ser de estructura variada, pero su ventaja radica en la velocidad, ya que al vivir en memoria la extracción de datos es casi inmediata. Ejemplos: Memcached, Redis.
 - Optimizadas para búsquedas: Pueden ser de diversas estructuras, su ventaja radica en que se pueden hacer queries y búsquedas complejas de manera sencilla. Ejemplos: BigQuery, Elasticsearch.
+
+### Servicios administrados y jerarquía de datos
+
+Firebase es un servicio de Google donde puedes tercerizar muchos elementos en la nube.
+Jerarquía de datos:
+
+- Base de datos
+- Colección
+- Documento
+
+![src/jerarquia_de_datos_firebase.PNG](src/jerarquia_de_datos_firebase.PNG)
