@@ -134,3 +134,37 @@ SELECT * FROM posts WHERE month(fecha_publicacion)='04';
 */
 select * from posts 
 where usuario_id is not null and estatus = 'activo';
+
+/* 
+    @Agrupar por estatus los posts
+*/
+SELECT estatus, COUNT(*) post_quantity
+FROM `posts`
+group by estatus;
+
+/* 
+    @Tambien contamos con el operador suma este es util
+    cuando queremos sumar data tiene que ver mucho con informes.
+*/
+SELECT estatus, SUM(id) post_quantity
+FROM `posts`
+group by estatus;
+
+/* 
+    @Mostrar cuantos posts se hicieron por año
+*/
+SELECT year(fecha_publicacion) as post_year, count(*) as post_quantity
+FROM `posts`
+GROUP by post_year
+
+/* 
+    @Mostrar cuantos posts se hicieron por mes
+*/
+SELECT monthname(fecha_publicacion) as post_month, count(*) as post_quantity
+ FROM `posts` GROUP by post_month;
+
+/* 
+    @Mostrar cuantos posts se hicieron por mes y agrupar por estatus.
+*/
+SELECT estatus, monthname(fecha_publicacion) as post_month, count(*) as post_quantity 
+FROM `posts` GROUP by estatus, post_month;

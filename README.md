@@ -679,3 +679,17 @@ select *
 from posts
 where usuario_id is null;
 ```
+
+### GROUP BY
+
+GROUP BY tiene que ver con agrupación. Indica a la base de datos qué criterios debe tener en cuenta para agrupar.
+
+```sql
+SELECT estatus, COUNT(*) post_quantity
+FROM `posts`
+group by estatus;
+
+SELECT year(fecha_publicacion) as post_year, count(*) as post_quantity
+FROM `posts`
+GROUP by post_year
+```
