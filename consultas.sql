@@ -85,6 +85,40 @@ where posts.usuario_id is null;
 
 /*
     @Traer todos los posts donde el estatus sea
-    diferente a activo
+    diferente a activo tambien se puede denotar
+    con !=
 */
 SELECT * FROM posts WHERE estatus<>'activo';
+
+/*
+    @un breve resumen del like y uso del %:
+    – %termina_en
+    – %en medio%
+    – inicia_con%
+*/
+
+SELECT * 
+FROM posts
+WHERE titulo LIKE '%escandalo%'
+
+/*
+    @Cabe mencionar que los operadores LIKE y BETWEEN AND, pueden ser negados con NOT
+    NOT LIKE
+    NOT BETWEEEN – AND –
+*/
+SELECT * FROM posts WHERE titulo NOT LIKE '%escandalo%';
+
+/*
+     @Selecciona los posts cuya fecha de publicación es mayor a '2022-01-01’
+*/
+SELECT * FROM posts WHERE fecha_publicacion > '2022-01-01';
+
+/*
+     @Selecciona los posts cuya fecha de publicación este entre este rango.
+*/
+SELECT * FROM posts WHERE fecha_publicacion BETWEEN '2024-01-01' and '2025-01-01';
+
+/* 
+    @Seleccionar los posts que esten en este rango de fechas
+*/
+SELECT * FROM posts WHERE year(fecha_publicacion) BETWEEN '2024' and '2025';

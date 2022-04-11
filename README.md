@@ -663,4 +663,9 @@ WHERE es la sentencia que nos ayuda a filtrar tuplas o registros dependiendo de 
 SELECT *
 FROM posts
 WHERE estatus<>'activo'
+
+SELECT * 
+FROM posts
+WHERE titulo LIKE '%escandalo%'
+
 ```
