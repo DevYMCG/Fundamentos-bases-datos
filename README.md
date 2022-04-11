@@ -763,3 +763,7 @@ De pregunta a Query
 - ORDER BY: El orden en que quiero presentar mi información
 - HAVING: Los filtros que quiero que mis datos agrupados tengan
 
+### Preguntándole a la base de datos
+
+- GROUP_CONCAT toma el resultado del query y lo pone como campo separado por comas.
+

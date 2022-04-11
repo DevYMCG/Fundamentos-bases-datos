@@ -210,3 +210,17 @@ where fecha_publicacion = (
     select max(fecha_publicacion) 
     from posts
 )
+
+/*  @Cuantas etiquetas estan ligadas a un blog*/
+
+select post_id, COUNT(etiqueta_id) as etiqueta
+from posts_etiquetas
+group by post_id;
+
+SELECT etiquetas.nombre_etiqueta, count(posts_etiquetas.etiqueta_id) cantidad_etiquetas
+FROM etiquetas join posts_etiquetas on etiquetas.id = posts_etiquetas.etiqueta_id
+GROUP by etiquetas.id
+
+SELECT posts.titulo, count(posts_etiquetas.post_id) cantidad_posts
+FROM posts join posts_etiquetas on posts.id = posts_etiquetas.post_id
+GROUP by posts.id
