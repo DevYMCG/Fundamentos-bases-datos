@@ -774,3 +774,10 @@ join etiquetas on posts_etiquetas.etiqueta_id=etiquetas.id
 join posts on posts_etiquetas.post_id=posts.id 
 group by post_id 
 ```
+
+Puedes usar una abreviación para evitar escribir lo mismo cada vez.
+Ejemplo:
+
+```sql
+FROM categorias AS c
+```

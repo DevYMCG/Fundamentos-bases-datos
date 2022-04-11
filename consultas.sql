@@ -232,3 +232,44 @@ select *
 from etiquetas
 	LEFT JOIN posts_etiquetas on etiquetas.id = posts_etiquetas.etiqueta_id
   WHERE posts_etiquetas.etiqueta_id is null;
+
+/*cantidad de posts por categoria*/
+SELECT c.categoria ,count(*) count_categoria
+FROM `posts` p join categorias c
+on p.categoria_id = c.id
+group by categoria_id
+order by count_categoria desc;
+
+/*usuario que a estado creando mas posts en el sistema*/
+SELECT u.nickname ,count(*) count_post
+FROM `posts` p join usuarios u
+on p.usuario_id = u.id
+group by p.usuario_id
+order by count_post desc;
+
+/*usuario que a estado creando mas posts en el sistema y categoria que ha estado
+escribiendo*/
+
+SELECT u.nickname ,GROUP_CONCAT(c.categoria),count(*) count_post
+FROM `posts` p 
+join usuarios u on p.usuario_id = u.id
+join categorias c on p.categoria_id = c.id
+group by p.usuario_id
+order by count_post desc;
+
+/*usuario que a estado creando mas posts en el sistema y categoria que ha estado
+escribiendo sin repetir la categoria*/
+
+SELECT u.nickname ,GROUP_CONCAT(DISTINCT c.categoria),count(*) count_post
+FROM `posts` p 
+join usuarios u on p.usuario_id = u.id
+join categorias c on p.categoria_id = c.id
+group by p.usuario_id
+order by count_post desc;
+
+/*usuarios que no han escrito ningún posts*/
+select *
+FROM `posts` p 
+right join usuarios u on p.usuario_id = u.id
+where p.id is null;
+
