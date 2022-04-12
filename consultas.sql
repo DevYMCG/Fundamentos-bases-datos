@@ -1,3 +1,7 @@
+/* 2022
+    Mysql
+*/
+
 /*
     @Traer todos los posts con fecha de 
     publicación mayor a 2024

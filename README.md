@@ -804,3 +804,22 @@ Jerarquía de datos:
 - Documento
 
 ![src/jerarquia_de_datos_firebase.PNG](src/jerarquia_de_datos_firebase.PNG)
+
+### Top level collection con Firebase
+
+El modelo de bases de datos no relacionales es un poco más cercano al mundo real en su comportamiento.
+
+Las top level collections son las colecciones que se tienen de inmediato o entrada en el proyecto.
+Firebase es un servicio que tiene múltiples opciones y está pensado principalmente para aplicaciones móviles y web.
+
+### Manejo de modelos de datos en bases de datos no relacional.
+
+link https://firebase.google.com/
+
+![src/crear_proyecto_firebase.PNG](src/crear_proyecto_firebase.PNG)
+![src/crear_proyecto_firebase_2.PNG](src/crear_proyecto_firebase_2.PNG)
+![src/crear_proyecto_firebase_3.PNG](src/crear_proyecto_firebase_3.PNG)
+![src/crear_proyecto_firebase_4.PNG](src/crear_proyecto_firebase_4.PNG)
+![src/crear_proyecto_firebase_5.PNG](src/crear_proyecto_firebase_5.PNG)
+![src/crear_proyecto_firebase_6.PNG](src/crear_proyecto_firebase_6.PNG)
+![src/crear_proyecto_firebase_7.PNG](src/crear_proyecto_firebase_7.PNG)
