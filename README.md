@@ -855,5 +855,5 @@ Si tienes una entidad separada que vas a referenciar desde muchos lugares es rec
 ![src/construyendo_el_blog_en_firebase_referencia.png](src/construyendo_el_blog_en_firebase_referencia.png)
 ![src/construyendo_el_blog_en_firebase_referencia_2.png](src/construyendo_el_blog_en_firebase_referencia_2.png)
 ![src/construyendo_el_blog_en_firebase_referencia_3.png](src/construyendo_el_blog_en_firebase_referencia_3.png)
-![src/construyendo_el_blog_en_firebase_referencia_4.png](src/construyendo_el_blog_en_firebase_referencia_4.png)
+![src/construyendo_el_blog_en_firebase_referencia_4.PNG](src/construyendo_el_blog_en_firebase_referencia_4.PNG)
 ![src/construyendo_el_blog_en_firebase_subColeccion.PNG](src/construyendo_el_blog_en_firebase_subColeccion.PNG)
