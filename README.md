@@ -849,3 +849,11 @@ La particularidad de las top level collections es que existen en el primer nivel
 
 Si tienes una entidad separada que vas a referenciar desde muchos lugares es recomendado usar un top level collection. Por el otro lado si se necesita hacer algo intrínseco al documento es aconsejable usar subcolecciones.
 
+### Construyendo el blog en Firebase
+
+![src/construyendo_el_blog_en_firebase.PNG](src/construyendo_el_blog_en_firebase.PNG)
+![src/construyendo_el_blog_en_firebase_referencia.png](src/construyendo_el_blog_en_firebase_referencia.png)
+![src/construyendo_el_blog_en_firebase_referencia_2.png](src/construyendo_el_blog_en_firebase_referencia_2.png)
+![src/construyendo_el_blog_en_firebase_referencia_3.png](src/construyendo_el_blog_en_firebase_referencia_3.png)
+![src/construyendo_el_blog_en_firebase_referencia_4.png](src/construyendo_el_blog_en_firebase_referencia_4.png)
+![src/construyendo_el_blog_en_firebase_subColeccion.PNG](src/construyendo_el_blog_en_firebase_subColeccion.PNG)
