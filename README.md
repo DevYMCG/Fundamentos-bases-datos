@@ -889,3 +889,20 @@ En el caso de Platziblog por ejemplo si tienes una vista de un blog post individ
 Regla 2. La colección tiene vida propia
 
 Esta regla se refiere a que la excepción a la regla 1 es cuando tenemos un caso en que la “entidad” que tiene necesidad de vivir y modificarse constantemente de manera independiente a las otras colecciones. Por ejemplo en Platziblog podemos en el ejemplo anterior hacer una excepción a autores porque nos conviene tenerlas como top level collection en el sentido que se añadan, borren, cambien o listen los usuarios sin depender del blog post.
+
+### BASES DE DATOS EN LA VIDA REAL
+
+Hoy en dia, se utilizan diversos tipos de bases de datos segun el problema que se quiera resolver:
+Las bases de datos relacionales, durante mucho tiempo, fueron utilizadas para resolver todo tipo de situaciones, pero al aumentar enormemente el numero de datos a manejar, se volveron ineficientes en muchos casos.
+Firestore o MongoDB nos permiten obtener los datos actuales de la aplicacion de manera simple. Sin embargo, no nos permite hacer, por ejemplo, queries muy complejos.
+En una misma disciplina, es probable que haya que utilizar mas de un tipo de bases de datos.
+
+### Big Data
+
+Big Data es un concepto que nace de la necesidad de manejar grandes cantidades de datos. La tendencia comenzó con compañías como YouTube al tener la necesidad de guardar y consultar mucha información de manera rápida.
+
+Es un gran movimiento que consiste en el uso de diferentes tipos de bases de datos.
+
+Big data: Grandes cantidades de datos procesada de manera rápida (millones de datos por segundo o menos) y eficiente para ser soportados por la BDD
+
+![src/big_data.PNG](src/big_data.PNG)
