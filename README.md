@@ -90,9 +90,6 @@
     - [ Business intelligence](#clase-54-business-intelligence)
     - [ Machine Learning](#clase-55-machine-learning)
     - [ Data Science](#clase-56-data-science)
-    - [ Por que aprender bases de datos hoy](#clase-57-por-que-aprender-bases-de-datos-hoy)
-  - [Bonus](#bonus)
-    - [Bases de datos relacionales vs no relacionales](#clase-58-bases-de-datos-relacionales-vs-no-relacionales)
 
 # Bases de datos relacionales
 
