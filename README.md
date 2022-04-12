@@ -814,7 +814,7 @@ Firebase es un servicio que tiene múltiples opciones y está pensado principalm
 
 ### Manejo de modelos de datos en bases de datos no relacional.
 
-link https://firebase.google.com/
+< link https://firebase.google.com/
 
 ![src/crear_proyecto_firebase.png](src/crear_proyecto_firebase.png)
 ![src/crear_proyecto_firebase_2.PNG](src/crear_proyecto_firebase_2.PNG)
@@ -823,3 +823,29 @@ link https://firebase.google.com/
 ![src/crear_proyecto_firebase_5.PNG](src/crear_proyecto_firebase_5.PNG)
 ![src/crear_proyecto_firebase_6.PNG](src/crear_proyecto_firebase_6.PNG)
 ![src/crear_proyecto_firebase_7.PNG](src/crear_proyecto_firebase_7.PNG)
+
+### Creando y borrando documentos en Firestore
+
+Tipos de datos en Firestore:
+
+- String: Cualquier tipo de valor alfanumérico
+- Number: Soporta enteros y flotantes.
+- Boolenan: Los clásicos valores True y False
+- Map: Permite agregar un documento dentro de otro.
+- Array: Permite agregar un conjunto de datos (soporte multi type) sin nombre e identificador.
+- Null: Indica que no se ha definido un valor.
+- Timestamp: Permite almacenar fechas (guarda el año, mes, día y hora).
+- Geopoint: Guarda una localización geográfica (coordenadas latitud-longitud).
+
+Reference: Permite referencia un documento (relaciona dos documentos, no importa su colección).
+
+![src/creando_documento_platziblog.PNG](src/creando_documento_platziblog.PNG)
+![src/creando_documento_platziblog_vista.PNG](src/creando_documento_platziblog_vista.PNG)
+![src/eliminar_documento.jpg](src/eliminar_documento.jpg)
+
+### Colecciones vs subcolecciones
+
+La particularidad de las top level collections es que existen en el primer nivel de manera intrínseca. Las subcolecciones ya no vivirán al inicio de la base de datos.
+
+Si tienes una entidad separada que vas a referenciar desde muchos lugares es recomendado usar un top level collection. Por el otro lado si se necesita hacer algo intrínseco al documento es aconsejable usar subcolecciones.
+
