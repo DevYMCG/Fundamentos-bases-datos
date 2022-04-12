@@ -816,9 +816,9 @@ Firebase es un servicio que tiene múltiples opciones y está pensado principalm
 
 link https://firebase.google.com/
 
-![src/crear_proyecto_firebase.PNG](src/crear_proyecto_firebase.PNG)
+![src/crear_proyecto_firebase.png](src/crear_proyecto_firebase.png)
 ![src/crear_proyecto_firebase_2.PNG](src/crear_proyecto_firebase_2.PNG)
-![src/crear_proyecto_firebase_3.PNG](src/crear_proyecto_firebase_3.PNG)
+![src/crear_proyecto_firebase_3.png](src/crear_proyecto_firebase_3.png)
 ![src/crear_proyecto_firebase_4.PNG](src/crear_proyecto_firebase_4.PNG)
 ![src/crear_proyecto_firebase_5.PNG](src/crear_proyecto_firebase_5.PNG)
 ![src/crear_proyecto_firebase_6.PNG](src/crear_proyecto_firebase_6.PNG)
